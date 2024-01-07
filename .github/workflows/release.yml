@@ -2,7 +2,8 @@ name: Release
 on:
   push:
     branches:
-      - feat/git-prepare
+      - main
+      - develop
 
 permissions:
   contents: read # for checkout
