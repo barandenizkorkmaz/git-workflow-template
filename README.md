@@ -157,3 +157,16 @@ Similarly, please fill the PR template carefully to inform others about your wor
 ## Customized .gitignore
 
 Useful Resource: https://www.toptal.com/developers/gitignore
+
+# How to Use Template?
+
+1. Copy all the files to your repository.
+2. Append the following into `./git/config`
+```bash
+[commit]
+    template = .github/.gitmessage 
+```
+3. In `package.json` edit the following fields accordingly.
+   - `name`
+   - `description`
+   - `repository:url`
